@@ -1,0 +1,82 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #fff;
+    color: #2e2f42;
+    margin: 40px;
+}
+
+/* Форма */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    /* фіксована ширина для вирівнювання */
+}
+
+/* Загальні стилі для label */
+label {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* Інпут — однакова ширина */
+input[type="number"] {
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px 0 0 0;
+    border: 2px solid #2e2f42;
+    border-radius: 4px;
+    width: 100%;
+    /* вирівнювання по правому краю */
+    box-sizing: border-box;
+}
+
+/* Fieldset — радіокнопки по горизонталі */
+fieldset {
+    border: 2px solid #2e2f42;
+    border-radius: 4px;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+legend {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 10px;
+}
+
+/* Радіокнопки */
+fieldset label {
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+fieldset input[type="radio"] {
+    margin-right: 8px;
+}
+
+/* Кнопка — така ж широка, як інпут */
+button[type="submit"] {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 6px;
+    border: 2px solid #2e2f42;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    width: 100%;
+    /* вирівнювання по правому краю */
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #e0e0e0;
+}
