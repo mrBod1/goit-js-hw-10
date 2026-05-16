@@ -5,16 +5,13 @@ body {
     margin: 40px;
 }
 
-/* Форма */
 .form {
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 300px;
-    /* фіксована ширина для вирівнювання */
 }
 
-/* Загальні стилі для label */
 label {
     display: flex;
     flex-direction: column;
@@ -22,7 +19,6 @@ label {
     font-weight: 500;
 }
 
-/* Інпут — однакова ширина */
 input[type="number"] {
     font-size: 20px;
     padding: 10px;
@@ -30,11 +26,9 @@ input[type="number"] {
     border: 2px solid #2e2f42;
     border-radius: 4px;
     width: 100%;
-    /* вирівнювання по правому краю */
     box-sizing: border-box;
 }
 
-/* Fieldset — радіокнопки по горизонталі */
 fieldset {
     border: 2px solid #2e2f42;
     border-radius: 4px;
@@ -51,7 +45,6 @@ legend {
     padding: 0 10px;
 }
 
-/* Радіокнопки */
 fieldset label {
     flex-direction: row;
     align-items: center;
@@ -63,7 +56,6 @@ fieldset input[type="radio"] {
     margin-right: 8px;
 }
 
-/* Кнопка — така ж широка, як інпут */
 button[type="submit"] {
     font-size: 16px;
     font-weight: 500;
@@ -73,7 +65,6 @@ button[type="submit"] {
     background-color: #f5f5f5;
     cursor: pointer;
     width: 100%;
-    /* вирівнювання по правому краю */
     transition: background-color 0.3s;
 }
 

@@ -7,7 +7,7 @@ form.addEventListener("submit", event => {
   event.preventDefault();
 
   const delay = Number(form.delay.value);
-  const state = form.state.value; // fulfilled або rejected
+  const state = form.state.value;
 
   createPromise(delay, state)
     .then(delay => {
